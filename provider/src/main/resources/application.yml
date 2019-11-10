@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: PROVIDER
+
+server:
+  port: 2222
+eureka:
+  client:
+    service-url:
+      ##ע������
+      defaultZone: http://server1:1111/eureka,http://server2:1112/eureka
