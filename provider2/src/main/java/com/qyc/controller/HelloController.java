@@ -1,5 +1,4 @@
-package com.qyc.Controller;
-
+package com.qyc.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,6 +9,6 @@ public class HelloController {
     @RequestMapping("hello")
     public String index() {
 
-        return "hello 1";
+        return "hello 2";
     }
 }
