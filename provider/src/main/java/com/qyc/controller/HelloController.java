@@ -1,4 +1,4 @@
-package com.qyc.Controller;
+package com.qyc.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;

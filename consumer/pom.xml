@@ -20,6 +20,27 @@
     </properties>
 
     <dependencies>
+        <!--模块间互相依赖-->
+        <!--start-->
+        <dependency>
+            <groupId>com.qyc</groupId>
+            <artifactId>provider</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qyc</groupId>
+            <artifactId>provider2</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qyc</groupId>
+            <artifactId>ribbon</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!--end-->
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
