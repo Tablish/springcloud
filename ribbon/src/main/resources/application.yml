@@ -1,0 +1,20 @@
+server:
+  port: 5555
+
+
+spring:
+  application:
+    name: ribbon-consumer
+
+#providers这个是自己命名的，ribbon,listOfServer这两个是规定的
+#providers:
+ # ribbon:
+  #  listOfServer: localhost:2222,localhost:2223
+
+#注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/,http://localhost:1112/eureka/
+      #负载均衡策略选取： 默认是轮询算法，这里改成随机算法，要恢复成轮询，只需注释下面一行代码
+      NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
