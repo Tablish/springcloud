@@ -15,7 +15,7 @@ import java.util.concurrent.ExecutionException;
 @RestController
 public class ConsumerController {
 
-    //@Autowired
+    @Autowired
     private  RestTemplate restTemplate;
 
     /*@Autowired
