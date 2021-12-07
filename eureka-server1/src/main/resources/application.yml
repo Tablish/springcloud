@@ -13,4 +13,4 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     service-url:
-      defaultZone: http://localhost:1112/eureka/
+      defaultZone: http://eureka2.com:1111/eureka/,http://eureka3.com:1113/eureka/

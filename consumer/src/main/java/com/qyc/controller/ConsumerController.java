@@ -1,6 +1,6 @@
 package com.qyc.controller;
 
-import com.qyc.Service.HelloService;
+//import com.qyc.Service.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,22 +18,17 @@ public class ConsumerController {
     @Autowired
     private  RestTemplate restTemplate;
 
-    /*@Autowired
-        private RestTemplate restTemplate;
-    */
-
-
     /**
      * 实现消费
      */
-    /*@RequestMapping("ribbon-consumer")
-    public String helloConsumer() {
+    @RequestMapping("ribbon-consumer")
+    public String helloConsumer1() {
 
         return restTemplate.getForEntity("http://PROVIDER/hello", String.class).getBody();
-    }*/
+    }
 
     @Autowired
-    private HelloService helloService;
+    //private HelloService helloService;
 
     /**
      * 利用注解完成熔断
@@ -73,12 +68,13 @@ public class ConsumerController {
      * @throws InterruptedException
      */
     @RequestMapping("/consumer")
-    public String helloConsumer() throws ExecutionException, InterruptedException {
+    public String helloConsumer2() throws ExecutionException, InterruptedException {
 
         List<String> list = new ArrayList<>();
         HelloServiceObserveCommand command = new HelloServiceObserveCommand("hello",restTemplate);
         //热执行
-        Observable<String> observable = command.observe();
+        Observable<String> observable = null;
+                //= command.observe();
         //冷执行
         //Observable<String> observable =command.toObservable();
         //订阅

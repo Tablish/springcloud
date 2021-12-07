@@ -1,12 +1,20 @@
 spring:
   application:
     name: PROVIDER
+    datasource:
+      type: com.alibaba.druid.pool.DruidDataSource    #数据源
+      driver-class-name: org.gjt.mm.mysql.Driver
+      url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: 123@asdD@
+mybatis:
+  type-aliases-package: com.qyc.pojo
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
 
 server:
   port: 2222
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:1111/eureka,http://localhost:1112/eureka
-
-
+      defaultZone: http://localhost:1111/eureka,http://localhost:1112/eureka,http://localhost:1113/eureka

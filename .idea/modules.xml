@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/springcloud.iml" filepath="$PROJECT_DIR$/.idea/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoStudy/DemoStudy.iml" filepath="$PROJECT_DIR$/DemoStudy/DemoStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server1/eureka-server1.iml" filepath="$PROJECT_DIR$/eureka-server1/eureka-server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server2/eureka-server2.iml" filepath="$PROJECT_DIR$/eureka-server2/eureka-server2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server3/eureka-server3.iml" filepath="$PROJECT_DIR$/eureka-server3/eureka-server3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-api/springcloud-api.iml" filepath="$PROJECT_DIR$/springcloud-api/springcloud-api.iml" />
     </modules>
   </component>
 </project>

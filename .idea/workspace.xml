@@ -1,46 +1,471 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
-  </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecab85c8-3f42-4e5c-9900-bdbd88571591" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-api/pom.xml" afterDir="false" />
+    <list default="true" id="7aa75626-d391-4f6d-b436-3bd6783ae27a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_eventbus_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_infix_0_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_jxpath_commons_jxpath_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_websocket_jakarta_websocket_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_60.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_annotations_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_annotations_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_continuation_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_http_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_plus_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_plus_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_security_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_server_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlet_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_servlets_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_webapp_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_xml_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_client_impl_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_client_impl_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_server_impl_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_javax_websocket_server_impl_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_server_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_15_v20190215.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_servlet_9_4_22_v20191022.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jasper_apache_el_8_5_40.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_test_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_analysis_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_commons_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_tree_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jetty_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_eureka_server_1_4_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/DemoStudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/basic/HashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/basic/annotation/AnnotationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/basic/annotation/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/basic/annotation/Persion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/basicDemo/collectionDemo/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/basicDemo/collectionDemo/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/basicDemo/collectionDemo/InnerClassDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/basicDemo/collectionDemo/MyComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/basicDemo/collectionDemo/SortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/abstractFactoryDemo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/abstractFactoryDemo/CreateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/abstractFactoryDemo/HuaWeiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/abstractFactoryDemo/HuaWeiPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/abstractFactoryDemo/HuaWeiRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/abstractFactoryDemo/IRouterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/abstractFactoryDemo/IphoneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/abstractFactoryDemo/XiaoMiFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/abstractFactoryDemo/XiaoMiPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/abstractFactoryDemo/XiaoMiRouter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/adapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/adapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/adapter/Adapter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/adapter/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/adapter/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/adapter/NetToUsb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/bridge/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/bridge/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/bridge/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/bridge/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/bridge/Lenevo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder1/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder1/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder1/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder1/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder1/Work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder2/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder2/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder2/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder2/Product1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder2/Product2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder2/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder3/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder3/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder3/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder3/Hamburg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/builder3/Waiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/factoryDemo/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/factoryDemo/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/factoryDemo/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/factoryDemo/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/factoryDemo/Tesla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/factoryDemo/TeslaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/factoryDemo/WuLing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/factoryDemo/WuLingFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/demo1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/demo1/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/demo1/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/demo1/Rent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/demo1/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/demo1/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/demo1/UserServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/demo1/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/demo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/demo2/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/demo2/ProxyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/demo3/CglibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/demo3/Panda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/test/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/test/GF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/test/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/test/ProxyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/singleTest/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/singleTest/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo2/AbstractHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo2/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo2/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo2/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo2/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/simple/AddOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/simple/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/simple/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/simple/MultiplyOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/simple/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/java/ClassImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/java/ClassImpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/java/IntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/java/LinkedHashMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/java/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/java/ReflectPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/java/ReflectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/java/StaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/java/TestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/java/TypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/CyclicBarrierTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/CyclicBarrierTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/ReadWriteLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/ReentrantReadWriteLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/SamephoreTest/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/SynchronizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/concurrent/VolatileAtomicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/createThread/NewThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/createThread/RunnableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/future/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/future/FutureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/futureTask/FutureTaskForMultiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/futureTask/FutureTaskForMultiCompute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/futureTask/FutureTaskTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/futureTask/callableAndFuture/CallableAndFuture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/futureTask/callableAndFuture/CallableAndFutureClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/futureTask/callableAndFuture/CallableAndFutureTaskClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/CorrectPostureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/CorrectPostureTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/CorrectPostureTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/CreateThread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/DaeMonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/DeadLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/DownLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/FutureTaskAndCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/InterruptedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/InterruptedTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/JiaoTiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/JoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/LiveLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/LockSupportTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/MessageQueueTakeAndGet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/OneInterruptOtherThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/PhilosopherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/ReentrantLockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/RunnableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/SellTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/SynchronizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/Test8Lock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/TestFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/TestFrame2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/TestSafeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/ThreadSixStateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/ThreadStateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/ThreadStateTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/ThreadStateTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/ThreadStateTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/TransferTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/WaitAndNotifyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/YieldAndPriorityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/reentrance/LockReentry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/reentrance/SynchronizedReentry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/systemStudy/CallableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/systemStudy/CallableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/systemStudy/DeprecatedSuspendResume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/systemStudy/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/systemStudy/MyThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/systemStudy/SleepInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/systemStudy/interruptedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/threadPoolTest/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/threadPoolTest/SplitListUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/threadPoolTest/TestCachedThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/threadPoolTest/threadMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/springDemo/TransactionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/springStudy/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/qyc/config/ConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server3/eureka-server3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server3/src/main/java/com/qyc/EurekaServer3Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server3/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/qyc/controller/DeptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/qyc/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/qyc/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/qyc/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/mybatis/mapper/DeptMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cloud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-api/springcloud-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/springcloud.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/qyc/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/qyc/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server1/src/test/java/com/qyc/EurekaServer1ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server2/src/test/java/com/qyc/EurekaServer2ApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/com/qyc/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/com/qyc/ProviderApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/provider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/test/java/com/qyc/ProviderApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider2/src/main/java/com/qyc/Provider2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider2/src/main/java/com/qyc/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider2/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider2/src/test/java/com/qyc/Provider2ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-api/pom.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="springcloud" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,246 +473,594 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="localRepository" value="D:\repository" />
+        <option name="userSettingsFile" value="D:\downLoad\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="1rcUgEoB41llMPeorQVJOAMiCjZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
+  <component name="ProjectId" id="1vtvQKnTiKo47Ykz3z4XvSvsg0b" />
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="flattenPackages" value="true" />
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573374899777" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo2" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.qyc.controller" />
-      <recent name="com.qyc.Controller" />
+      <recent name="com.qyc.designPattern.strategy.abstractDemo" />
+      <recent name="com.qyc.multiThread.heiMa" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\qyc_workplace\springcloud\consumer\src\main\resources" />
-      <recent name="F:\qyc_workplace\springcloud\provider\src\main\resources" />
-      <recent name="F:\qyc_workplace\springcloud\eureka-server2\src\main\resources" />
-      <recent name="F:\qyc_workplace\springcloud\eureka-server1\src\main\resources" />
+      <recent name="E:\study\springCloud\springcloud\DemoStudy\src\main\java\com\qyc\designPattern\strategy\abstractDemo2" />
+      <recent name="E:\study\springCloud\springcloud\DemoStudy\src\main\java\com\qyc\multiThread\heiMa" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
-    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="consumer" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyc.ConsumerApplication" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AnnotationTest">
+    <configuration name="AnnotationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qyc.basic.annotation.AnnotationTest" />
+      <module name="DemoStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qyc.basic.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="CyclicBarrierTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qyc.multiThread.CyclicBarrierTest2" />
+      <module name="DemoStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qyc.multiThread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qyc.basic.HashMapTest" />
+      <module name="DemoStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qyc.basic.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka-server1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qyc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyc.EurekaServer1Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaServer2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="eureka-server2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyc.EurekaServer2Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qyc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyc.ProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnnotationTest" />
+        <item itemvalue="Spring Boot.ProviderApplication" />
+        <item itemvalue="Spring Boot.EurekaServer1Application" />
+        <item itemvalue="Application.HashMapTest" />
+        <item itemvalue="Application.CyclicBarrierTest2" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ecab85c8-3f42-4e5c-9900-bdbd88571591" name="Default Changelist" comment="" />
-      <created>1573304411125</created>
+      <changelist id="7aa75626-d391-4f6d-b436-3bd6783ae27a" name="Default Changelist" comment="" />
+      <created>1627394181974</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1573304411125</updated>
-      <workItem from="1573304413920" duration="936000" />
-      <workItem from="1573305441588" duration="1601000" />
-      <workItem from="1573373910722" duration="967000" />
-      <workItem from="1619621829526" duration="60000" />
-      <workItem from="1620741438856" duration="2536000" />
+      <updated>1627394181974</updated>
+      <workItem from="1627394185688" duration="4561000" />
+      <workItem from="1627456988990" duration="12430000" />
+      <workItem from="1627719933704" duration="3834000" />
+      <workItem from="1627830959383" duration="7548000" />
+      <workItem from="1627889590351" duration="6432000" />
+      <workItem from="1628000582476" duration="9936000" />
+      <workItem from="1628067788094" duration="6209000" />
+      <workItem from="1628244687674" duration="2249000" />
+      <workItem from="1628256304032" duration="4757000" />
+      <workItem from="1628328905958" duration="7439000" />
+      <workItem from="1628417540096" duration="6981000" />
+      <workItem from="1628491091332" duration="7415000" />
+      <workItem from="1628582887831" duration="1908000" />
+      <workItem from="1628690114293" duration="3194000" />
+      <workItem from="1628760724323" duration="2566000" />
+      <workItem from="1629126414997" duration="765000" />
+      <workItem from="1629169572356" duration="12224000" />
+      <workItem from="1629869674482" duration="16564000" />
+      <workItem from="1629978708870" duration="23000" />
+      <workItem from="1630296000267" duration="3308000" />
+      <workItem from="1630421767999" duration="69000" />
     </task>
-    <task id="LOCAL-00001" summary="first commit spring-cloud-demo">
-      <created>1573374684256</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1573374684256</updated>
-    </task>
-    <task id="LOCAL-00002" summary="好久没学springCloud了">
-      <created>1619275069593</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1619275069593</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit spring-cloud-demo" />
-    <MESSAGE value="好久没学springCloud了" />
-    <option name="LAST_COMMIT_MESSAGE" value="好久没学springCloud了" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/consumer/src/main/java/com/qyc/controller/ConsumerController.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/systemStudy/DeprecatedSuspendResume.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/provider/src/main/java/com/qyc/Controller/HelloController.java</url>
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/singleTest/Client.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/singleTest/Client.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/singleTest/Person.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/java/StaticTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/java/StaticTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/java/StaticTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/program/jdk/src.zip!/java/lang/Integer.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/threadPoolTest/TestCachedThreadPool.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/threadPoolTest/TestCachedThreadPool.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/threadPoolTest/TestCachedThreadPool.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/futureTask/callableAndFuture/CallableAndFutureClient.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/futureTask/callableAndFuture/CallableAndFuture.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/futureTask/callableAndFuture/CallableAndFuture.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/futureTask/callableAndFuture/CallableAndFutureClient.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/futureTask/callableAndFuture/CallableAndFutureClient.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/futureTask/callableAndFuture/CallableAndFutureClient.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/futureTask/callableAndFuture/CallableAndFutureClient.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/CreateThread1.java</url>
           <line>12</line>
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/CreateThread1.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/CreateThread1.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/TestFrame.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/TestFrame2.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/TestFrame2.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/JoinTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/InterruptedTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/DaeMonTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/DaeMonTest.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/DaeMonTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/CorrectPostureTest3.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/CorrectPostureTest3.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/ThreadStateTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/ThreadStateTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/ThreadStateTest.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/ReentrantLockTest.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/heiMa/ReentrantLockTest.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.2.1.RELEASE/spring-beans-5.2.1.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>652</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/proxyDemo/test/ProxyClass.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>517</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java</url>
+          <line>876</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <line>117</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <line>182</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <line>184</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>298</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>322</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>336</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>370</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>378</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>377</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>342</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>798</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>803</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>801</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class</url>
+          <line>89</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class</url>
+          <line>91</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class</url>
+          <line>94</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class</url>
+          <line>217</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>918</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>922</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>1197</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>1220</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>1224</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>1231</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>1212</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>1202</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class</url>
+          <line>985</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class</url>
+          <line>254</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class</url>
+          <line>263</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class</url>
+          <line>67</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/repository/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class</url>
+          <line>68</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/simple/Context.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/simple/Client.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo/Client.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo/Client.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo/Factory.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo/Factory.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/designPattern/strategy/abstractDemo/Add.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/threadPoolTest/SplitListUtils.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/multiThread/threadPoolTest/SplitListUtils.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DemoStudy/src/main/java/com/qyc/basic/annotation/AnnotationTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>springcloud</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
